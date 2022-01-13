@@ -10,7 +10,6 @@
       />
       <br />
       <button class="search-button" @click="getCurrentValues">Search</button>
-      <!-- <div v-for="(data,i) in weatherData" :key="i">{{data.body.name}}</div> -->
       <div v-if="checkData">
         <weather-row-table/><br>
         <main-data/><br>
